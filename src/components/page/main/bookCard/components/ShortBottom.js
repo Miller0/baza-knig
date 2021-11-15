@@ -14,12 +14,12 @@ export const ShortBottom = (props) => {
 			<a href="/" className={prefix+'short-link'}>Подробнее</a>
 
 			<div className={prefix + 'short-rate'}>
-				<a href="#" title="Нравится(+)" onClick="alert(1);">
+				<a href="#" title="Нравится(+)" >
 					<img src={imgLike} alt=""/>
 					10
 				</a>
 
-				<a href="#" title="Не нравится(-)" onClick="alert(1);">
+				<a href="#" title="Не нравится(-)" >
 					<img src={imgDislike} alt=""/>
 					7
 				</a>

@@ -9,7 +9,7 @@ export const Attribute = (props) => {
 	let param = props.param;
 	let text = props.text;
 
-	if (type == 'text-link') {
+	if (type === 'text-link') {
 		return (
 			<div className={'book-attr-' + type}>
 				<div>{param}<a className={'link'} href={'/'}>{text}</a>
@@ -18,7 +18,7 @@ export const Attribute = (props) => {
 		);
 	}
 
-	if (type == 'text-time') {
+	if (type === 'text-time') {
 		return (
 			<div className={'book-attr-' + type}>
 				<div>{param}<b>{text}</b>

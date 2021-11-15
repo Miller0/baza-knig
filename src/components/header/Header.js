@@ -4,7 +4,7 @@ import './Header.scss';
 import './carousel/CarouselHeader';
 
 import CarouselHeader from "./carousel/CarouselHeader";
-import {Navigation} from "./navigation/NavigationHead";
+//import {Navigation} from "./navigation/NavigationHead";
 
 function Header() {
 	return (

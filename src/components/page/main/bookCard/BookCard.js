@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from 'react'
 import './BookCard.scss';
 
 import Card from 'react-bootstrap/Card';

@@ -17,7 +17,7 @@ function CarouselHeader() {
                     {
                         resolve: slidesToShowPlugin,
                         options: {
-                            numberOfSlides: 8
+                            numberOfSlides: 6
                         }
                     },
                 ]}
@@ -40,6 +40,17 @@ function CarouselHeader() {
                             {
                                 resolve: slidesToShowPlugin,
                                 options: {
+                                    numberOfSlides: 4
+                                }
+                            },
+                        ]
+                    },
+                    1000: {
+                        plugins: [
+                            'infinite',
+                            {
+                                resolve: slidesToShowPlugin,
+                                options: {
                                     numberOfSlides: 5
                                 }
                             },
@@ -47,15 +58,15 @@ function CarouselHeader() {
                     }
                 }}
             >
-                <img className="head-c-img" src={img}/>
-                <img className="head-c-img" src={img2}/>
-                <img className="head-c-img" src={img3}/>
-                <img className="head-c-img" src={img}/>
-                <img className="head-c-img" src={img2}/>
-                <img className="head-c-img" src={img3}/>
-                <img className="head-c-img" src={img}/>
-                <img className="head-c-img" src={img2}/>
-                <img className="head-c-img" src={img3}/>
+                <img alt={'123'} className="head-c-img" src={img}/>
+                <img alt={'123'} className="head-c-img" src={img2}/>
+                <img alt={'123'} className="head-c-img" src={img3}/>
+                <img alt={'123'} className="head-c-img" src={img}/>
+                <img alt={'123'} className="head-c-img" src={img2}/>
+                <img alt={'123'} className="head-c-img" src={img3}/>
+                <img alt={'123'} className="head-c-img" src={img}/>
+                <img alt={'123'} className="head-c-img" src={img2}/>
+                <img alt={'123'} className="head-c-img" src={img3}/>
             </Carousel>
         </div>
     );
